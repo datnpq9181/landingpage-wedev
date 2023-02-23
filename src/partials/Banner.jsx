@@ -16,11 +16,11 @@ function Banner() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Sử dụng phiên bản<span className="hidden sm:inline"> MIỄN PHÍ</span>
+                Xem phiên bản<span className="hidden sm:inline"> MIỄN PHÍ</span>
               </a>{' '}
               <span className="italic px-1.5">hoặc</span>{' '}
               <a className="font-medium hover:underline text-emerald-400" href="https://wedev.mobi/dnd-pro/" target="_blank" rel="noreferrer">
-                Xem phiên bản Siêu Cấp VIP PRO
+                VIP PRO
               </a>
             </div>
             <button className="text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false)}>
