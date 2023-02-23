@@ -75,7 +75,7 @@ function SignUp() {
                     </div>
                   </div>
                   <div className="text-sm text-gray-500 text-center">
-                    Tôi đồng ý với các <Link to="#" className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Điều khoản sử dụng</Link> của DnD PRO.
+                    Tôi đồng ý với các <Link to="#" className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Điều khoản sử dụng</Link> của AutoBanking PRO.
                                 </div>
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
@@ -84,7 +84,7 @@ function SignUp() {
                   </div>
                 </form>
                 <div className="text-gray-400 text-center mt-6">
-                  Tôi đang sử dụng DnD PRO? <Link to="signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Đăng nhập</Link>
+                  Tôi đang sử dụng AutoBanking PRO? <Link to="signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Đăng nhập</Link>
                 </div>
               </div>
 
