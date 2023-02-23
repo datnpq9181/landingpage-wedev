@@ -141,7 +141,7 @@ function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; DnDpro.com. Bản quyền phần mềm thuộc về Wedev Mobi.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; AutoBanking.Online - Bản quyền phần mềm thuộc về Wedev Mobi.</div>
 
           </div>
 

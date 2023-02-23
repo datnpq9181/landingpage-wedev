@@ -26,7 +26,7 @@ function Newsletter() {
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
               <h3 className="h3 text-white mb-2">Thích quá rồi!</h3>
-              <p className="text-purple-200 text-lg">Kết nối với hệ thống gửi ưu đãi và tin khuyến mãi tự động của DnD Pro.</p>
+              <p className="text-purple-200 text-lg">Nhận ưu đãi và tin khuyến mãi mới nhất từ AutoBanking PRO.</p>
             </div>
 
             {/* CTA form */}

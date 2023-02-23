@@ -12,15 +12,15 @@ function Banner() {
             <div className="text-slate-500 inline-flex">
               <a
                 className="font-medium hover:underline text-slate-50"
-                href="https://wedev.mobi/dnd-free/"
+                href="https://wedev.mobi/free/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Xem phiên bản<span className="hidden sm:inline"> MIỄN PHÍ</span>
+                Trải nghiệm<span className="hidden sm:inline"> AutoBanking FREE</span>
               </a>{' '}
-              <span className="italic px-1.5">hoặc</span>{' '}
-              <a className="font-medium hover:underline text-emerald-400" href="https://wedev.mobi/dnd-pro/" target="_blank" rel="noreferrer">
-                VIP PRO
+              <span className="italic px-1.5">hoặc mua</span>{' '}
+              <a className="font-medium hover:underline text-emerald-400" href="https://wedev.mobi/pro/" target="_blank" rel="noreferrer">
+                AutoBanking PRO
               </a>
             </div>
             <button className="text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false)}>
