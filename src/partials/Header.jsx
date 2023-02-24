@@ -34,7 +34,7 @@ function Header() {
     <header className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
-
+      
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
@@ -48,7 +48,7 @@ function Header() {
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
-
+          
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
@@ -57,14 +57,17 @@ function Header() {
               <li>
                 <Link to="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">Đăng ký</Link>
               </li>
+            
             </ul>
 
           </nav>
 
           {/* Mobile menu */}
+          
           <div className="md:hidden">
 
             {/* Hamburger button */}
+            
             <button ref={trigger} className={`hamburger ${mobileNavOpen && 'active'}`} aria-controls="mobile-nav" aria-expanded={mobileNavOpen} onClick={() => setMobileNavOpen(!mobileNavOpen)}>
               <span className="sr-only">Menu</span>
               <svg className="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -85,7 +88,6 @@ function Header() {
                 </li>
               </ul>
             </nav>
-
           </div>
 
         </div>
