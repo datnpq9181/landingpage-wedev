@@ -38,10 +38,6 @@ function Header() {
     <header className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
-<<<<<<< HEAD
-      
-=======
->>>>>>> d9c4c9f15d6beef25edb5dd3853f708c9cb804a7
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
@@ -60,7 +56,7 @@ function Header() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
 <<<<<<< HEAD
-          
+
 =======
 >>>>>>> d9c4c9f15d6beef25edb5dd3853f708c9cb804a7
             {/* Desktop sign in links */}
@@ -81,16 +77,16 @@ function Header() {
                   Đăng ký
                 </Link>
               </li>
-            
+
             </ul>
           </nav>
 
           {/* Mobile menu */}
-          
+
           <div className="md:hidden">
             {/* Hamburger button */}
 <<<<<<< HEAD
-            
+
             <button ref={trigger} className={`hamburger ${mobileNavOpen && 'active'}`} aria-controls="mobile-nav" aria-expanded={mobileNavOpen} onClick={() => setMobileNavOpen(!mobileNavOpen)}>
 =======
             <button
